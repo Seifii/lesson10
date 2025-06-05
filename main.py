@@ -1,6 +1,8 @@
 from csv import excel
+from PIL import Image #pip install pillow
 
 import cv2 #pip install opencv-python
+
 
 welcome = 'pass'
 imagew = cv2.imread(welcome)
@@ -25,35 +27,124 @@ else:
 
 
 cat1 = 'pass'
+cat_face_cascade1 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image1 = cv2.imread(cat1)
+cat_face1 = cat_face_cascade1.detectMultiScale(image1)
+cat1 = Image.open(image1)
+
+cat1 = cat1.convert("RGBA")
+
 cat2 = 'pass'
+cat_face_cascade2 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image2 = cv2.imread(cat2)
+cat_face2 = cat_face_cascade2.detectMultiScale(image2)
+cat2 = Image.open(image2)
+
+cat2 = cat2.convert("RGBA")
+
 cat3 = 'pass'
+cat_face_cascade3 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image3 = cv2.imread(cat3)
+cat_face3 = cat_face_cascade3.detectMultiScale(image3)
+cat3 = Image.open(image3)
+
+cat3 = cat3.convert("RGBA")
+
 cat4 = 'pass'
+cat_face_cascade4 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image4 = cv2.imread(cat4)
+cat_face4 = cat_face_cascade4.detectMultiScale(image4)
+cat4 = Image.open(image3)
+
+cat4 = cat4.convert("RGBA")
+
 cat5 = 'pass'
+cat_face_cascade5 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image5 = cv2.imread(cat5)
+cat_face5 = cat_face_cascade5.detectMultiScale(image5)
+cat5 = Image.open(image5)
+
+cat5 = cat5.convert("RGBA")
 cat6 = 'pass'
+cat_face_cascade6 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image6 = cv2.imread(cat6)
+cat_face6 = cat_face_cascade6.detectMultiScale(image6)
+cat6 = Image.open(image6)
+
+cat6 = cat6.convert("RGBA")
+
 cat7 = 'pass'
+cat_face_cascade7 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image7 = cv2.imread(cat7)
+cat_face7 = cat_face_cascade7.detectMultiScale(image7)
+cat7 = Image.open(image7)
+
+cat7 = cat7.convert("RGBA")
+
 cat8 = 'pass'
+cat_face_cascade8 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image8 = cv2.imread(cat8)
+cat_face8 = cat_face_cascade8.detectMultiScale(image8)
+cat8 = Image.open(image8)
+
+cat8 = cat8.convert("RGBA")
+
 cat9 = 'pass'
+cat_face_cascade9 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image9 = cv2.imread(cat9)
+cat_face9 = cat_face_cascade9.detectMultiScale(image9)
+cat9 = Image.open(image9)
+
+cat9 = cat9.convert("RGBA")
+
 cat10 = 'pass'
+cat_face_cascade10 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image10 = cv2.imread(cat10)
+cat_face10 = cat_face_cascade2.detectMultiScale(image10)
+cat10 = Image.open(image10)
+
+cat10 = cat10.convert("RGBA")
+
 cat11 = 'pass'
+cat_face_cascade11 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image11 = cv2.imread(cat11)
+cat_face11 = cat_face_cascade11.detectMultiScale(image11)
+cat11 = Image.open(image11)
+
+cat11 = cat11.convert("RGBA")
+
 cat12 = 'pass'
+cat_face_cascade12 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image12 = cv2.imread(cat12)
+cat_face12 = cat_face_cascade12.detectMultiScale(image12)
+cat12 = Image.open(image12)
+
+cat12 = cat12.convert("RGBA")
+
 cat13 = 'pass'
+cat_face_cascade13 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image13 = cv2.imread(cat13)
+cat_face13 = cat_face_cascade1.detectMultiScale(image13)
+cat13 = Image.open(image13)
+
+cat13 = cat13.convert("RGBA")
+
 cat14 = 'pass'
+cat_face_cascade14 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image14 = cv2.imread(cat14)
+cat_face14 = cat_face_cascade14.detectMultiScale(image14)
+cat14 = Image.open(image14)
+
+cat14 = cat14.convert("RGBA")
+
 cat15 = 'pass'
+cat_face_cascade15 = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 image15 = cv2.imread(cat15)
+cat_face15 = cat_face_cascade15.detectMultiScale(image15)
+cat15 = Image.open(image15)
+
+cat15 = cat15.convert("RGBA")
+
 baraban = 'pass'
 imageb = cv2.imread(baraban)
 
